@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_saved"
+            android:title="Tin đã lưu"
+            android:icon="@drawable/saved"/>
+        <item
+            android:id="@+id/nav_history"
+            android:title="Tin đã đọc"
+            android:icon="@drawable/lich_su1"/>
+        <item
+            android:id="@+id/nav_TrangChu"
+            android:title="Trang chủ"
+            android:icon="@drawable/trang_chu"/>
+        <item
+            android:id="@+id/nav_Video"
+            android:title="Video"
+            android:icon="@drawable/video"/>
+    </group>
+    <item android:title="Xã hội">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/nav_ThoiSu"
+                    android:title="Thời sự"
+                    android:icon="@drawable/thoi_su"/>
+                <item
+                    android:id="@+id/nav_TheGioi"
+                    android:title="Thế giới"
+                    android:icon="@drawable/the_gioi"/>
+                <item
+                    android:id="@+id/nav_TheThao"
+                    android:title="Thể Thao"
+                    android:icon="@drawable/the_thao"/>
+                <item
+                    android:id="@+id/nav_PhapLuat"
+                    android:title="Pháp luật"
+                    android:icon="@drawable/phap_luat"/>
+                <item
+                    android:id="@+id/nav_GiaoDuc"
+                    android:title="Giáo dục"
+                    android:icon="@drawable/giao_duc"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Làm giàu">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/nav_KinhDoanh"
+                    android:title="Kinh doanh"
+                    android:icon="@drawable/kinh_doanh"/>
+                <item
+                    android:id="@+id/nav_StarUp"
+                    android:title="Startup"
+                    android:icon="@drawable/startup"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Giải trí">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/nav_Cuoi"
+                    android:title="Cười"
+                    android:icon="@drawable/cuoi"/>
+                <item
+                    android:id="@+id/nav_GiaiTri"
+                    android:title="Giải trí"
+                    android:icon="@drawable/giai_tri"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Đời sống">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/nav_SucKhoe"
+                    android:title="Sức khỏe"
+                    android:icon="@drawable/suc_khoe"/>
+                <item
+                    android:id="@+id/nav_DoiSong"
+                    android:title="Đời sống"
+                    android:icon="@drawable/doi_song"/>
+                <item
+                    android:id="@+id/nav_DuLich"
+                    android:title="Du lịch"
+                    android:icon="@drawable/du_lich"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Khác"
+        android:id="@+id/item_kinhte">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/nav_KhoaHoc"
+                    android:title="Khoa học"
+                    android:icon="@drawable/khoa_hoc"/>
+                <item
+                    android:id="@+id/nav_SoHoa"
+                    android:title="Số hóa"
+                    android:icon="@drawable/so_hoa"/>
+                <item
+                    android:id="@+id/nav_Xe"
+                    android:title="Xe"
+                    android:icon="@drawable/xe"/>
+                <item
+                    android:id="@+id/nav_YKien"
+                    android:title="Ý kiến"
+                    android:icon="@drawable/y_kien"/>
+                <item android:id="@+id/nav_TamSu"
+                    android:title="Tâm sự"
+                    android:icon="@drawable/tam_su"/>
+            </group>
+        </menu>
+    </item>
+</menu>

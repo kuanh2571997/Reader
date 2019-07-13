@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_TrangChu"
+        android:icon="@drawable/trang_chu"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/navigation_ThoiSu"
+        android:icon="@drawable/thoi_su"
+        android:title="Thời sự" />
+    <item
+        android:id="@+id/navigation_Video"
+        android:icon="@drawable/video"
+        android:title="Video" />
+    <item
+        android:id="@+id/navigation_PhapLuat"
+        android:icon="@drawable/phap_luat"
+        android:title="Pháp luật" />
+    <item
+        android:id="@+id/navigation_GiaiTri"
+        android:icon="@drawable/giai_tri"
+        android:title="Giải trí" />
+</menu>

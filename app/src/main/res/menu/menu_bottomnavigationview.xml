@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_TrangChu"
+        android:icon="@drawable/trang_chu"
+        android:title="Trang chủ" />
+
+    <item
+        android:id="@+id/menu_ThoiSu"
+        android:icon="@drawable/thoi_su"
+        android:title="Thời sự" />
+
+    <item
+        android:id="@+id/menu_Video"
+        android:icon="@drawable/video"
+        android:title="Video" />
+
+    <item
+        android:id="@+id/menu_PhapLuat"
+        android:icon="@drawable/phap_luat"
+        android:title="Pháp luật" />
+
+    <item
+        android:id="@+id/menu_GiaiTri"
+        android:icon="@drawable/giai_tri"
+        android:title="Giải trí" />
+
+</menu>
